@@ -38,13 +38,21 @@ var createNameLi = function(nameText){
 var createFoodLi = function(foodText){
   let foodLi = document.createElement("li");
   foodLi.innerText = foodText;
-  return foodText;
+  return foodLi;
 };
 
 var createImageLi = function(imageText){
   let imageLi = document.createElement("li");
   imageLi.innerText = imageText;
   return imageLi;
+};
+
+var appendElements = function(catUl, nameLi, foodLi, imageLi){
+  catUl.appendChild(nameLi);
+  catUl.appendChild(foodLi);
+  catUl.appendChild(imageLi);
+  let cats = document.querySelector("#cats");
+  cats.appendChild(catUl);
 };
 
 debugger;
