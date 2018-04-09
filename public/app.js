@@ -65,5 +65,5 @@ var addCat = function(nameText, foodText, imageText) {
 }
 
 window.onload = function(){
-  addCat("Fluffy the Destroyer of Worlds", "Dog souls", "www.image.com");
+  addCat("Name: Fluffy the Destroyer of Worlds", "Favourite Food: Dog souls", "www.image.com");
 };
