@@ -55,6 +55,15 @@ var appendElements = function(catUl, nameLi, foodLi, imageLi){
   cats.appendChild(catUl);
 };
 
-debugger;
+var addCat = function(nameText, foodText, imageText) {
+  var catUl = createCatUl();
+  var nameText = createNameLi(nameText);
+  var foodText = createFoodLi(foodText);
+  var imageText = createImageLi(imageText);
 
-window.onload = app;
+  appendElements(catUl, nameText, foodText, imageText);
+}
+
+window.onload = function(){
+  addCat("Fluffy the Destroyer of Worlds", "Dog souls", "www.image.com");
+};
