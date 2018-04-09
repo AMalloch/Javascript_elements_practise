@@ -1,13 +1,10 @@
 var app = function() {
 
-    // <section id="cats">
-        // <ul class="cat">
-
-    const cats = document.getElementById("cats");
-
-    const cat = document.querySelector("cat")
-
-    const allCat = document.querySelectorAll(".cat");
+  // remember to debugger as you go
+    // step 1 create the parent container and its class
+    let catUl = document.createElement("ul");
+    catUl.classList.add("cat");
 
     debugger;
-  };
+
+;}
