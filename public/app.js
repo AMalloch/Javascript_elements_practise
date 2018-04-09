@@ -62,8 +62,11 @@ var addCat = function(nameText, foodText, imageText) {
   var imageText = createImageLi(imageText);
 
   appendElements(catUl, nameText, foodText, imageText);
-}
+};
 
 window.onload = function(){
+  addCat("Name: Boba", "Favourite food: Sock fluff", "www.image.com");
+  addCat("Name: Barnaby", "Favourite food: Tuna", "www.image.com");
+  addCat("Name: Max", "Favourite food: Whiskas Temptations", "www.image.com");
   addCat("Name: Fluffy the Destroyer of Worlds", "Favourite Food: Dog souls", "www.image.com");
 };
