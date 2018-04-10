@@ -64,6 +64,15 @@ var addCat = function(nameText, foodText, imageText) {
   appendElements(catUl, nameText, foodText, imageText);
 };
 
+// const cats = document.getElementsByClassName("cats");
+// cats[0].style.backgroundColor = "hotpink";
+
+    // const cats = document.getElementsByTagName("ul");
+    //
+    // cats[0].style.backgroundColor = "hotpink";
+    //
+    // cats[0].style.display = "none";
+
 window.onload = function(){
   addCat("Name: Boba", "Favourite food: Sock fluff", "www.image.com");
   addCat("Name: Barnaby", "Favourite food: Tuna", "www.image.com");
